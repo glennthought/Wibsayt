@@ -1,0 +1,377 @@
+﻿*{
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+    box-sizing:border-box;
+}
+
+    body, html{
+    font-family:'Goudy Old Style';
+height:100%;
+background-size:cover;
+background-image:url(bitch.gif);
+}
+.insig {
+    background-image: url("bgbg.gif");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    font-family: Forte;
+    font-weight: bold;
+    background-color: wheat;
+    align-items: center;
+    image-orientation: 90deg;
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin: 10px;
+    background-image: url(bgbg.gif);
+    background-size:contain;
+    background-color: sandybrown;
+    position: center;
+    display: flex;
+    animation: text 30s linear infinite;
+    width: 350px;
+    height: 110px;
+}
+
+    .navbar .logo {
+        font-family: 'Goudy Stout';
+        list-style: hebrew;
+        animation: effect 10s alternate infinite;
+        background-image: url(200w.gif);
+        background-position:center;
+        background-size:contain;
+        animation: text 20s linear infinite;
+        border-radius: 10px;
+        color: papayawhip;
+        display: flex;
+        font-size: 1.5rem;
+        padding: 10px;
+        width: 138px;
+        height: 100px;
+    }
+
+    .navbar .nav_list {
+        list-style: none;
+    }
+
+        .navbar .nav_list li {
+            margin: 5px;
+            display: flex;
+        }
+
+        .navbar .nav_list a {
+            border: solid 2px black;
+            background-color:saddlebrown;
+            text-decoration: none;
+            animation: effct 5s linear infinite;
+            transition: color 0.2s;
+            border: solid 3px greenyellow;
+            border-radius: 5px;
+            padding: 2px;
+            display: flex;
+            
+            margin:2px 5px 2px 5px;
+        }
+
+            .navbar .nav_list a:hover {
+                color: orangered;
+                background-color: dimgray;
+                background-image: none;
+                animation: text 3s linear infinite;
+            }
+
+.dropbtn {
+    display:none;
+    border: solid 2px black;
+    background-image: url(button.jpg);
+    text-decoration: none;
+    color: darkred;
+    font-size: 10px;
+    transition: color 0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Retro Gaming';
+    padding: 2px;
+    margin: 3px;
+    height: 25px;
+    width: 60px;
+}
+.dropbtn1, .dropbtn2, .dropbtn3, .dropbtn4 {
+
+    border: solid 2px black;
+    background-color: papayawhip;
+    text-decoration: none;
+    color: darkred;
+    font-size: 10px;
+    transition: color 0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Retro Gaming';
+    padding: 2px;
+    margin: 3px;
+
+}
+.dropdown-content1 {
+
+    display: none;
+    position: absolute;
+    background-image: url(star.gif);
+    overflow:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2px;
+    justify-content:center;
+}
+.border{
+    width:500px;
+    padding:30px;
+    margin:5px;
+    background-image:url(water.gif);
+    border-radius:8px;
+    animation:text 5s linear infinite;
+    justify-content:center;
+}
+.border .ltr{
+    margin:3px;
+    padding:8px;
+    background-color:rgb(232, 189, 189);
+    border-radius:9px;
+    color:black;
+    font-family:'Cascadia Code';
+    font-weight:300;
+    border:rgb(126, 57, 115) 4px solid;
+}
+.border .ltr .date{
+    justify-content:right;
+    font-weight:900;
+    animation:text 3s linear infinite;
+    margin:0 0 20px 300px;
+    border:0px;
+}
+    .border .ltr .reciever {
+        font-weight: 900;
+    }
+    .border .ltr .mid {
+        font-weight: 900;
+    }
+    .border .ltr .date1 {
+        justify-content: right;
+        font-weight: 900;
+        margin: 20px 0 0 300px;
+    }
+    .border .ltr .date2 {
+        justify-content: right;
+        font-weight: 900;
+        margin: 0 0 0 300px;
+    }
+.border .ltr .item{
+    margin:20px 1px 1px 1px;
+}
+
+
+
+.nav-list .icon {
+    display: none;
+}
+
+
+.dropbtn:hover, .dropbtn2:hover, .dropbtn3:hover, .dropbtn4:hover  {
+    color: orangered;
+    background-color: dimgray;
+}
+
+.dropdown {
+    list-style: none;
+    display: flex;
+}
+
+.dropdown-content, .dropdown-content4, .dropdown-content5, .dropdown-content6 {
+    display: none;
+    position: absolute;
+    
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2px;
+    
+}
+
+    .dropdown-content a,.dropdown-content4 a,.dropdown-content5 a,.dropdown-content6 a {
+        color: grey;
+        padding: 6px 8px;
+        text-decoration: none;
+        display: block;
+        transition: color 0.2s;
+        border: solid 2px greenyellow;
+    }
+
+.dropdown a:hover{
+    animation: effect 3s linear infinite;
+    color: darkorange;
+}
+
+.show, .show1, .show2, .show3, .show4 {
+    display: block;
+    justify-content:center;
+        
+}
+.box {
+    
+    display: flex;
+}
+    .box .bg {
+        border: solid 3px saddlebrown;
+        border-radius: 15px;
+        padding: 8px;
+        background-color: sandybrown;
+        display: flex;
+        margin: 10px 15px 0 10px;
+        font-family: 'Times New Roman';
+        width: 500px;
+    }
+    .box .bg1 {
+        border: solid 3px saddlebrown;
+        border-radius: 15px;
+        padding: 8px;
+         background-color: sandybrown;
+        display: flex;
+        margin: 10px 10px 0 15px;
+        font-family: 'Times New Roman';
+       
+        
+    }
+    .box .bg1 .side-bar{
+        background:linear-gradient(rgb(215, 99, 243),rgb(255 115 28));
+        border:solid 1.5px steelblue;
+        border-radius:2px;
+        padding:1px 3px 1px 3px;
+    }
+
+.boXx {
+    width: 100px;
+    height: 150px;
+    overflow: auto;
+    margin:30px 0 0 40px;
+    background-color:cornflowerblue;
+}
+
+        .nav_list1 {
+            list-style: none;
+   
+        }
+
+            .nav_list1 li {
+                margin: 2px;
+                display: flex;
+            }
+
+            .nav_list1 a {
+                border: solid 2px black;
+                background-color: saddlebrown;
+                text-decoration: none;
+                transition: color 0.2s;
+                border: solid 3px steelblue;
+                border-radius: 5px;
+                padding: 2px;
+                display: flex;
+                margin: 2px 5px 2px 5px;
+                font-family: Forte;
+                color: floralwhite;
+                width: 100px;
+                font-size: 10px;
+            }
+
+                .nav_list1 a:hover {
+                }
+      
+        
+@keyframes text {
+    0% {
+        color: orangered;
+        border: solid 3px rgb(20, 138, 138);
+        border-radius: 5px;
+    }
+
+    20% {
+        color: coral;
+        border: solid 3px rgb(15, 87, 95);
+        border-radius: 5px;
+    }
+
+    30% {
+        color: indianred;
+        border: solid 3px rgb(12, 48, 78);
+        border-radius: 5px;
+    }
+
+    40% {
+        color: orangered;
+        border: solid 3px rgb(31, 165, 184);
+        border-radius: 5px;
+    }
+
+    50% {
+        color: orange;
+        border: solid 3px rgb(12, 48, 78);
+        border-radius: 5px;
+    }
+
+    60% {
+        color: darkred;
+        border: solid 3px rgb(20, 138, 138);
+        border-radius: 5px;
+    }
+
+    70% {
+        color: orange;
+        border: solid 3px rgb(15, 87, 95);
+        border-radius: 5px;
+    }
+
+    80% {
+        color: red;
+        border: solid 3px rgb(12, 48, 78);
+        border-radius: 5px;
+    }
+
+    90% {
+        color: darkorange;
+        border: solid 3px rgb(15, 87, 95);
+        border-radius: 5px;
+    }
+
+    100% {
+        color: orangered;
+        border: solid 3px rgb(20, 138, 138);
+        border-radius: 5px;
+    }
+}
+@keyframes effct {
+    0% {
+        color:orangered;
+    }
+
+    20% {
+        color:yellow;
+    }
+
+    40% {color:greenyellow
+    }
+
+    60% {color:cornflowerblue;
+    }
+
+    80%{color:mediumpurple;
+
+    }
+    100%{color:orange;
+
+    }
+}
+
